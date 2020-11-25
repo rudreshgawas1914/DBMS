@@ -1,0 +1,47 @@
+body {
+    font-family: "Roboto", Helvetica, Arial, sans-serif;}
+
+.last-box {
+    height: 520px;
+    box-shadow: none;
+    background-color: rgb(60, 60, 65); 
+    margin: -20px -30px 0 -30px;
+    padding: 10px 10px 10px 10px;}
+
+.last-sec {
+    position: relative;
+    padding: 0 20px;
+    overflow: hidden;}
+
+.col-map{
+    margin: 50px 10px 0 55px;
+    padding: 5px 5px 5px 5px;
+    background-color: white;}
+
+.col-address {
+    float: right;
+    margin: -365px 250px 30px 0;}
+
+.add_text {
+    font-weight: bold;
+    font-size: #9c9c9c;
+    font-size: 17px;
+    line-height: 1.7em;}
+
+.scroll-up {
+    background: url("sprite-icons.png") repeat scroll -190px -1432px;
+    background-color: transparent;
+    background-image: url("sprite-icons.png");
+    background-repeat: repeat;
+    background-attachment: scroll;
+    background-position: -190px -1432px;
+    background-clip: border-box;
+    background-origin: padding-box;
+    background-size: auto auto;
+    bottom: 0;
+    cursor: pointer;
+    height: 52px;
+    position: fixed;
+    right: 0;
+    width: 49px;
+    z-index: 9999;}

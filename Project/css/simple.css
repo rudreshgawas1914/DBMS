@@ -1,0 +1,199 @@
+body {
+    font-family: "Roboto", Helvetica, Arial, sans-serif;}
+
+/*Box of View, Book, Donate, */
+
+.middle-box {
+ /*   background-image: linear-gradient(
+        to right bottom,
+        rgba(100, 100, 100, 0.1)),
+        url(waves.JPG);
+    background-size: cover;
+    background-position: center;  */
+    height: 580px;
+    box-shadow: none;
+    background-color: gainsboro; 
+    margin: -28px -30px 0 -29px;
+    padding: 20px 10px 20px 10px;}
+
+/*Main text in box*/
+
+.text_heading {
+    
+    word-spacing: none;
+    text-align: center;
+    font-size: 16px;
+}
+.head_text {
+    letter-spacing: -1px;
+    margin: 55px 220px 0 220px;
+}
+
+/*VIEW poojas in temple*/
+
+.viewing-box {
+    height: 300px;
+    width: 270px;
+    background-color: #ffffff;
+    margin: 90px 15px 15px 85px;
+    padding: 10px 10px 10px 10px;
+    box-shadow: 0 1rem 2rem rgba(0,0,0,.3);}
+.view {
+    left: 5px;
+    text-align: center;
+    margin: 40px 0 13px 0;
+    position: relative;
+    box-sizing: border-box;}
+.view-btn {
+    display: inline-block;
+    border-width: 2px;
+    color: #ffffff;
+    margin: 20px 10px 13px 0;
+    padding: 16px 27px;
+    font-size: 14px;
+    text-decoration: none;
+    text-decoration-line: none;
+    text-decoration-style: solid;
+    animation-duration: 1s;
+    transition: all 0.2s ease-in-out 0s;
+    letter-spacing: 2px;
+    word-spacing: 1px;
+    font-weight: bold;
+    line-height: 1.3333333;
+    border-radius: 0px;
+    background-color: #f97352;
+    border-color: #f97352;    }
+.view-btn:hover{
+    text-decoration: none;
+    color: #ffffff;
+    background-color: darkslategray;
+    border-color: darkslategray;
+    transform: translateY(-3px);
+	box-shadow: 0 1rem 2rem rgba(0,0,0,.3);}
+.view-btn:active {
+    text-decoration: none;
+    transform: translateY(-1px);
+	box-shadow: 0 5px 10px rgba(0,0,0,.3);}
+.view_text {
+    margin-top: -25px;
+    padding: 0 20px 0 20px;
+    word-spacing: 1px;
+    font-weight: bold;
+    font-size: 24px;
+    font-stretch: condensed;
+    font-family: 'Lato',sans-serif;
+    color: #818181;
+}
+
+/*BOOKING of pujas for temple*/
+
+.booking-box {
+    height: 300px;
+    width: 270px;
+    background-color: #ffffff;
+    margin: -315px 15px 15px 540px;
+    padding: 10px 10px 10px 10px;
+    box-shadow: 0 1rem 2rem rgba(0,0,0,.3);}
+
+.book {
+    left: 5px;
+    text-align: center;
+    margin: 49px 0 13px 0;
+    position: relative;
+    box-sizing: border-box;}
+.book-btn {
+    display: inline-block;
+    border-width: 2px;
+    color: #ffffff;
+    font-size: 14px;
+    font-weight: bold;
+    margin: 20px 10px 13px 0;
+    padding: 16px 27px;
+    text-decoration: none;
+    text-decoration-line: none;
+    text-decoration-style: solid;
+    animation-duration: 1s;
+    transition: all 0.2s ease-in-out 0s;
+    letter-spacing: 2px;
+    word-spacing: 1px;
+    line-height: 1.3333333;
+    border-radius: 0px;
+    background-color: #f97352;
+    border-color: #f97352; }
+.book-btn:hover {
+    text-decoration: none;
+    color: #ffffff;
+    background-color: darkslategray;
+    border-color: darkslategray;
+    transform: translateY(-3px);
+	box-shadow: 0 1rem 2rem rgba(0,0,0,.3);}
+.book-btn:active {
+    text-decoration: none;
+    transform: translateY(-1px);
+	box-shadow: 0 5px 10px rgba(0,0,0,.3);}
+.book_text {
+    margin-top: -34px;
+    padding: 0 20px 0 20px;
+    word-spacing: 1px;
+    font-weight: bold;
+    font-size: 24px;
+    font-stretch: condensed;
+    font-family: 'Lato',sans-serif;
+    color: #818181
+}
+
+/*DONATION for temple*/
+.donation-box {
+    height: 300px;
+    width: 270px;
+    background-color: #ffffff;
+    margin: -315px 85px 15px 420px;
+    padding: -15px 10px 10px 10px;
+    float: right;
+    box-shadow: 0 1rem 2rem rgba(0,0,0,.3);}
+
+.donate {
+    left: 5px;
+    text-align: center;
+    margin: 40px 0 13px 0;
+    position: relative;
+    box-sizing: border-box;}
+.donate-btn {
+    display: inline-block;
+    border-width: 2px;
+    color: #ffffff;
+    margin: 15px 10px 13px 0;
+    padding: 16px 27px;
+    font-size: 14px;
+    font-weight: bold;
+    text-decoration: none;
+    text-decoration-line: none;
+    text-decoration-style: solid;
+    animation-duration: 1s;
+    transition: all 0.2s ease-in-out 0s;
+    letter-spacing: 2px;
+    word-spacing: 1px;
+    line-height: 1.3333333;
+    border-radius: 0px;
+    background-color: #f97352;
+    border-color: #f97352; }
+.donate-btn:hover {
+    text-decoration: none;
+    color: #ffffff;
+    background-color: darkslategray;
+    border-color: darkslategray;
+    transform: translateY(-3px);
+	box-shadow: 0 1rem 2rem rgba(0,0,0,.3);}
+.donate-btn:active {
+    text-decoration: none;
+    transform: translateY(-1px);
+	box-shadow: 0 5px 10px rgba(0,0,0,.3);}
+.donate_text {
+    margin-top: -16px;
+    padding: 0 20px 0 20px;
+    font-weight: bold;
+    font-size: 25px;
+    font-stretch: condensed;
+    font-family: 'Lato',sans-serif;
+    color: #818181;
+}
